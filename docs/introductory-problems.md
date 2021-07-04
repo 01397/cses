@@ -40,7 +40,7 @@
 ## Number Spiral
 
 - [Problem](https://cses.fi/problemset/task/1071)
-- Code: [1071.cpp](../tasks/1071.cpp)
+- Code: [1071-2.cpp](../tasks/1071-2.cpp)
 
 考え方1. 対角線の上側と左側で場合分けして、行/列の偶奇で4通りに場合分けする。対角線の数を求めて、そこからの差で計算する。TLEになってしまったのは対角線の求め方が悪かったかも。$n * n - n + 1$で求められるらしい。確かに。
 
