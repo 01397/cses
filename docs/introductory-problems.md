@@ -27,3 +27,10 @@
 - Code: [1094.cpp](../tasks/1094.cpp)
 
 問題文の英語に慣れないと。`while (cin >> x) { ... }` という書き方を覚えた。EOFまで繰り返し入力を受け取ってくれるらしい。
+
+## Permutations
+
+- [Problem](https://cses.fi/problemset/task/1070)
+- Code: [1070.cpp](../tasks/1070.cpp)
+
+隣あう2数の差が1にならない順列を作る問題。やっと実直な実装以外のが出てきた気がする。末尾にスペースが残ってても大丈夫だった。
