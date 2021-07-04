@@ -21,3 +21,9 @@
 
 `char`と`string`に慣れていない。少しコードが汚かったので`string`のインデックスを使って書き直した。
 
+## Increasing Array
+
+- [Problem](https://cses.fi/problemset/task/1094)
+- Code: [1094.cpp](../tasks/1094.cpp)
+
+問題文の英語に慣れないと。`while (cin >> x) { ... }` という書き方を覚えた。EOFまで繰り返し入力を受け取ってくれるらしい。
