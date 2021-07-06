@@ -19,7 +19,7 @@
 - [Problem](https://cses.fi/problemset/task/1069/)
 - Code: [1069.cpp](../tasks/1069.cpp), [1069-2.cpp](../tasks/1069-2.cpp)
 
-`char`と`string`に慣れていない。少しコードが汚かったので`string`のインデックスを使って書き直した。
+`char`と`string`に慣れていない。少しコードが汚かったので`string`のインデックスを使って書き直した。範囲外のインデックスを取ることで、綺麗にはなったけど... `i` が文字数長を超えている時、`str[i]`は未定義動作、
 
 ## Increasing Array
 
