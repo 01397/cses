@@ -61,6 +61,9 @@ nが与えられる。1からnまでの数を2セットにわけ、それぞれ�
 
 ## Two Knights
 
+- [Problem](https://cses.fi/problemset/task/1072)
+- Code: [1072.cpp](../tasks/1072.cpp)
+
 ### 問題の要約
 
 N * Nのチェスボードに、2つのナイトの駒を互いに攻撃しない位置に置く。置き方は何通りあるか。
@@ -91,3 +94,7 @@ ll d = 2 * 4 +
 ```
 
 重複しているので2で割って、最初に求めた全組み合わせから引けば答え。
+
+## Bit Strings
+
+10^9 + 7問題。[Qiitaの解説記事](https://qiita.com/drken/items/3b4fdf0a78e7a138cd9a#4-%E7%B4%AF%E4%B9%97-an)見ればわかる。
